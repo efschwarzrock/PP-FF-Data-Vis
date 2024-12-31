@@ -64,14 +64,14 @@ function make(){
     .attr("fill", "#12664F");
 
     var imgHeight = 160;
-/*EFS
+
     svg.append('image')
     .attr('xlink:href', 'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/ChampionshipImg.png')
     .attr('width', imgHeight*1.823)
     .attr('height', imgHeight)
     .attr('x', 600)
     .attr('y', 0)
-*/
+
     
     writeText(25, 100, 60, svg, "ADC Boston FF", "#E4701E")
     writeText(25, 120, 15, svg, "*See Bottom Of Page For Stat Explanations")
