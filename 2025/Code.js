@@ -136,16 +136,16 @@ function writeText(left, top, fontSize, bg, text, color="#000000"){
 }
 
 var teamColors = ["#DDB265","#4DC8EE","#928A7A","#AE74B4","#468CA5","#8B1722","#DEDCDA","#F47939","#0B5DC3","#6F5841"]
-var teamImgs = ['https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/BoneTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/NotLastTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/JeantyTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/MahomesTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/JamaraTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/JonathanTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/ChiefsTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/hotdogTS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/141TS.png',
-    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/BrillsTS.png'
+var teamImgs = ['https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/BoneTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/NotLastTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/JeantyTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/MahomesTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/JamaraTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/JonathanTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/ChiefsTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/hotdogTS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/141TS.png',
+    'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/BrillsTS.png'
 ]
 
 function BarPlots(bg, top, bottom, left, right, data, barColors, titleName, numLines, interval, startLine){
