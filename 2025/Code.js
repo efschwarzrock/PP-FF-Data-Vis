@@ -65,12 +65,12 @@ function make(){
 
     var imgHeight = 160;
 
-    svg.append('image')
-    .attr('xlink:href', 'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/ChampionshipImg.png')
-    .attr('width', imgHeight*1.823)
-    .attr('height', imgHeight)
-    .attr('x', 600)
-    .attr('y', 0)
+    //svg.append('image')
+    //.attr('xlink:href', 'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/ChampionshipImg.png')
+    //.attr('width', imgHeight*1.823)
+    //.attr('height', imgHeight)
+    //.attr('x', 600)
+    //.attr('y', 0)
 
     
     writeText(25, 100, 60, svg, "ADC Boston FF", "#E4701E")
@@ -135,7 +135,7 @@ function writeText(left, top, fontSize, bg, text, color="#000000"){
  
 }
 
-var teamColors = ["#DDB265","#4DC8EE","#928A7A","#AE74B4","#468CA5","#8B1722","#DEDCDA","#F47939","#0B5DC3","#6F5841"]
+var teamColors = ["#726546ff","#d86120ff","#928A7A","#AE74B4","#468CA5","#DEDCDA","#41af54ff","#F47939","#0B5DC3","#6F5841"]
 var teamImgs = ['https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/BoneTS.png',
     'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/NotLastTS.png',
     'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/JeantyTS.png',
