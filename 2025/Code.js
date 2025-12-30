@@ -65,12 +65,12 @@ function make(){
 
     var imgHeight = 160;
 
-    //svg.append('image')
-    //.attr('xlink:href', 'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/ChampionshipImg.png')
-    //.attr('width', imgHeight*1.823)
-    //.attr('height', imgHeight)
-    //.attr('x', 600)
-    //.attr('y', 0)
+    svg.append('image')
+    .attr('xlink:href', 'https://raw.githubusercontent.com/efschwarzrock/PP-FF-Data-Vis/master/2025/Images/ChampionshipImg.png')
+    .attr('width', imgHeight*1.823)
+    .attr('height', imgHeight)
+    .attr('x', 600)
+    .attr('y', 0)
 
     
     writeText(25, 100, 60, svg, "ADC Boston FF", "#E4701E")
